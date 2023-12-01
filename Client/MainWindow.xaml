@@ -18,18 +18,16 @@
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0" VerticalAlignment="Center">
                 <TextBlock Margin="10">
-                    Введіть IP адресу:
+                    Введіть логін:
                 </TextBlock>
-                <TextBox Margin="10,0,10,10" Name="IpAdress"></TextBox>
-                <TextBlock Margin="10,0,10,10">Введіть порт:</TextBlock>
-                <TextBox Margin="10,0,10,10" Name="Port"></TextBox>
+                <TextBox Margin="10,0,10,10" Name="LoginText"></TextBox>
+                <TextBlock Margin="10,0,10,10">Введіть пароль:</TextBlock>
+                <TextBox Margin="10,0,10,10" Name="PasswordText"></TextBox>
             </StackPanel>
             <StackPanel Grid.Column="1" Margin="10" VerticalAlignment="Center">
-                <Button Margin="20,20,20,10" Click="ConnectUser_Click">
-                    Під'єднатися
-                </Button>
+               
                 <Button Margin="20,10,10,10" Click="ConnectDefaul_Click">
-                    Під'єднанання по замовченню 
+                    Під'єднатися до сервера 
                 </Button>
             </StackPanel>
         </Grid>
